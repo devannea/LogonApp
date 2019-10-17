@@ -22,8 +22,8 @@ export class RegisterComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       password: "Passw0rd*",
       firstName: "Jim",
-      lastName: "Sanders",
-      email: "jim@test.com"
+      lastName: "Halpert",
+      email: "jhalpert@test.com"
     });
   }
 
